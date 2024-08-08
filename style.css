@@ -64,7 +64,6 @@ nav {
   width: 100vw;
   background: rgb(255 255 255 / 50%);
   font-family: "Mooli", sans-serif;
-
 }
 
 a {
@@ -173,18 +172,23 @@ p {
 }
 
 /* Contact Section */
-.fab {
+.contact {
+  flex-direction: row;
+}
+
+.fa-brands {
   font-size: 100px;
   margin-right: 50px;
   cursor: pointer;
   color: var(--primary-color);
 }
 
-.fab:hover {
+.fa-brands:hover {
   color: var(--on-background);
 }
 
 /* Dark Mode Toggle */
+
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
